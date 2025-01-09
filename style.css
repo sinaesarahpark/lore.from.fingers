@@ -1,0 +1,208 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  word-break: keep-all;
+}
+
+.thumbnail {
+	display: none;
+}
+
+img .thumbnail {
+	display: none;
+}
+
+
+body {
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	background-color: white;
+	color: black;
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 1.8em 0 0.2em 0;
+	font-size: 2.5em;
+	cursor: pointer;
+}
+
+h2 {
+	background-color: white;
+	color: black;
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+	border-bottom: solid 1px black;
+	padding: 0.5em;
+	cursor: pointer;
+}
+
+h3 {
+	color: white;
+	background-color: white;
+	padding: 1em;
+	border-bottom: solid 1px black;	
+	max-width: 600px;
+	margin: 0 auto;
+	cursor: default;
+}
+
+h4 {
+	color: black;
+	background-color: white;
+	padding: 0 0 1.3em 0;
+	max-width: 600px;
+	margin: 0 auto;
+	cursor: pointer;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+.lt1, .lt2, .lt3 {
+	background-color: yellow;
+}
+
+
+.esc {
+	background-color: limegreen;
+	color: black;
+	right: 1em;
+	bottom: 1em;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 0.5em;
+	position: fixed;
+	animation: backbutton 5s infinite;
+	z-index: 999;
+	cursor: pointer;
+}
+
+.box {
+	background-color: white;
+	color: black;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 1em 2em;
+	line-height: 1.8em;
+	border-bottom: 1px solid black;
+	cursor: default;
+}
+
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	text-align: center;
+	font-size: 0.9em;
+	padding: 0 1.5em;
+	color: gray;
+}
+
+img {
+	max-width: 100%;
+}
+
+iframe {
+	width: 100%;
+	margin: 0;
+}
+
+a {
+	word-break: break-all;
+}
+
+.caption {
+	font-size: 0.8em;
+	color: gray;
+	padding: 0 1em;
+}
+
+.writer {
+	font-size: 0.8em;
+	color: gray;
+}
+
+.quote {
+	color: dimgray;
+	padding: 0 1.5em;
+}
+
+.credit {
+	padding: 0 auto;
+	font-size: 0.7em;
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+
+.footnote {
+	font-size: 0.5em;
+	text-decoration-line: none;
+	color: black;
+}
+
+.footnote_cont {
+	font-size: 0.8em;
+	color: black;
+}
+
+@keyframes backbutton {
+	0% {
+		opacity: 100%;
+	}
+
+	25% {
+		opacity: 50%;
+	}
+
+	50% {
+		opacity: 0%;
+	}
+
+	75% {
+		opacity: 50%;
+	}
+
+	100% {
+		opacity: 100%;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+
+.esc {
+	right: 1em;
+}
+
+.box {
+	padding: 1em 1.5em;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
